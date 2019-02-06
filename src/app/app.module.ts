@@ -3,10 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CompSuccessDirective } from './directives/comp-success.directive';
+import { CompFailureDirective } from './directives/comp-failure.directive';
+import { CustomStyleDirective } from './directives/custom-style.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CompSuccessDirective,
+    CompFailureDirective,
+    CustomStyleDirective
   ],
   imports: [
     BrowserModule,
